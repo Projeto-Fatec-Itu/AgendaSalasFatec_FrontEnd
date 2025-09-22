@@ -1,59 +1,73 @@
-# AgendaSalasFatecFrontEnd
+# 📅 Projeto de Agendamento de Aulas - Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.2.
+Este repositório contém a **parte de frontend** do sistema de **Agendamento de Aulas da FATEC Itu**, desenvolvido em **Angular**.  
+O objetivo do projeto é fornecer uma interface moderna, intuitiva e responsiva para que professores e administradores possam gerenciar seus agendamentos de forma prática.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Tecnologias Utilizadas
+- [Angular](https://angular.io/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [ESLint](https://eslint.org/)  
+- [Prettier](https://prettier.io/)  
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## ⚙️ Como executar o projeto
 
-## Code scaffolding
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+    ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2. **Instale as dependências**
 
-```bash
-ng generate component component-name
-```
+   ```bash
+   npm install
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+3. **Execute o servidor de desenvolvimento**
 
-```bash
-ng generate --help
-```
+   ```bash
+   ng serve
+   ```
 
-## Building
+   O projeto estará disponível em: [http://localhost:4200](http://localhost:4200)
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🛠️ Configuração do Ambiente
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Para manter a padronização do código, utilize as seguintes extensões no **VS Code**:
 
-## Running unit tests
+* **[Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**
+* **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Essas ferramentas garantem a formatação automática e a análise de código em tempo real, seguindo as regras definidas no projeto.
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## 👥 Equipe de Desenvolvimento
 
-For end-to-end (e2e) testing, run:
+* **Isaque Barbosa** – *Líder do Frontend*
+* [Felipe Santos nascimento](https://github.com/felip-SN)
+* [Nicolas Augusto Almeida](https://github.com/Nicolas-Augusto-Almeida)
+* [Enzo de Aguiar Rodrigues](https://github.com/YungCrock)
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 📌 Fluxo de Contribuição
 
-## Additional Resources
+1. Escolha ou crie uma **issue**.
+2. Crie uma **branch** com o nome da issue.
+3. Desenvolva a solução e faça **commits** claros.
+4. Abra um **Pull Request (PR)** para a branch principal.
+5. O líder revisará e aprovará (ou solicitará ajustes).
+6. A issue será fechada após a aprovação do PR.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 📄 Licença
+
+Este projeto é de uso acadêmico e foi desenvolvido no contexto da **FATEC Itu**.
