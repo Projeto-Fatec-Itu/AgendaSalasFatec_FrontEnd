@@ -64,7 +64,7 @@ Essas ferramentas garantem a formatação automática e a análise de código em
 
 ## 👥 Equipe de Desenvolvimento
 
-* **Isaque Barbosa** – *Líder do Frontend*
+* [**Isaque Barbosa**](https://github.com/IsaqueBatist) – *Líder do Frontend*
 * [Felipe Santos nascimento](https://github.com/felip-SN)
 * [Nicolas Augusto Almeida](https://github.com/Nicolas-Augusto-Almeida)
 * [Enzo de Aguiar Rodrigues](https://github.com/YungCrock)
