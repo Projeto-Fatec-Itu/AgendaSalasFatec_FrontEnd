@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,12 @@ import { Component, signal } from '@angular/core';
   standalone: false,
 })
 export class App {
-  
+  days = 0;
+  months = 0;
+
+  carregar(){
+    if(this.days === this.months){
+      console.warn("Ola");
+    }
+  }
 }

@@ -44,6 +44,20 @@ Para manter a padronização do código, utilize as seguintes extensões no **VS
 * **[Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**
 * **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)**
 
+Após instalar as extensões, configure nas configurações de usuário (settings.json). Para acessar basta utilizar `ctrl+shift+p` e digitar `User settings (JSON)`:
+```json
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    }
+```
+
 Essas ferramentas garantem a formatação automática e a análise de código em tempo real, seguindo as regras definidas no projeto.
 
 ---

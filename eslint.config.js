@@ -45,7 +45,8 @@ module.exports = tseslint.config(
       //Gerais
       "eqeqeq": ["error", "always"], // força uso de ===
       "curly": "error",
-      "eslint-disable-next-line @angular-eslint/prefer-standalone": "off"
+      "@angular-eslint/prefer-standalone": "off",
+      "@typescript-eslint/no-inferrable-types": "off"
     },
   },
   {
