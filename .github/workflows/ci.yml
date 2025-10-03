@@ -4,10 +4,6 @@ on:
     branches: [ develop ]
   push:
     branches: [ develop ]
-  pull_request:
-    branches: [ develop ]
-  push:
-    branches: [ develop ]
 
 jobs:
   build-and-test:
