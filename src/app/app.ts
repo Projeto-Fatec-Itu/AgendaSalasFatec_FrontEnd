@@ -6,12 +6,5 @@ import { Component } from '@angular/core';
   standalone: false,
 })
 export class App {
-  days = 0;
-  months = 0;
-
-  carregar(){
-    if(this.days === this.months){
-      console.warn("Ola");
-    }
-  }
+  variavel: string = ""
 }
