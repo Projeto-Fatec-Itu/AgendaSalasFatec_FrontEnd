@@ -6,25 +6,25 @@ on:
     branches: [ develop ]
 
 jobs:
-build-and-test:
-  name: build-and-test
-  runs-on: ubuntu-latest
+  build-and-test:
+    name: build-and-test
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
 
-    - name: Install dependencies
-      run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-    - name: Type check
-      run: npm run type-check || echo "no type-check script"
+      - name: Type check
+        run: npm run type-check || echo "no type-check script"
 
-    - name: Run lint
-      run: npm run lint
+      - name: Run lint
+        run: npm run lint
